@@ -1,0 +1,12 @@
+{
+  "name": "catalog-app",
+  "displayName": "catalog-app",
+  "expo": {
+    "name": "catalog-app",
+    "slug": "catalog-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
