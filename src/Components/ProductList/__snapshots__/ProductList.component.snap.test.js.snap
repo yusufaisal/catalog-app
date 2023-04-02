@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductList Component should render ProductItem properly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "marginHorizontal": 20,
+      "marginVertical": 10,
+    }
+  }
+>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "id": "1",
+          "image": "https://fe.dev.dxtr.asia/storage/products/Product_07.png",
+          "isFav": true,
+          "name": "Pumma Runing Shoes",
+          "new": true,
+          "off": "20% Off",
+          "out_of_stock": false,
+          "price": "$350",
+          "rating": 4,
+          "reviewCount": 150,
+        },
+        Object {
+          "id": "2",
+          "image": "https://fe.dev.dxtr.asia/storage/products/Product_01.png",
+          "isFav": false,
+          "name": "Heels Sandals",
+          "new": false,
+          "off": "",
+          "out_of_stock": true,
+          "price": "$450",
+          "rating": 4.5,
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsVerticalScrollIndicator={false}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <ProductItem
+            id="1"
+            image="https://fe.dev.dxtr.asia/storage/products/Product_07.png"
+            isFav={true}
+            name="Pumma Runing Shoes"
+            new={true}
+            off="20% Off"
+            out_of_stock={false}
+            price="$350"
+            rating={4}
+            reviewCount={150}
+          />
+          <ProductItem
+            id="2"
+            image="https://fe.dev.dxtr.asia/storage/products/Product_01.png"
+            isFav={false}
+            name="Heels Sandals"
+            new={false}
+            off=""
+            out_of_stock={true}
+            price="$450"
+            rating={4.5}
+          />
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

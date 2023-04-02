@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Catalog screen should able to render screen properly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5F5F5",
+      "flex": 1,
+    }
+  }
+>
+  <Header
+    title="Shoes"
+  />
+  <CategoryList
+    items={Array []}
+  />
+  <ProductList
+    products={Array []}
+  />
+</View>
+`;

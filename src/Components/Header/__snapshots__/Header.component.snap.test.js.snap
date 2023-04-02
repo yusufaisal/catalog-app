@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component should render Header properly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-end",
+      "backgroundColor": "#F5F5F5",
+      "flexDirection": "row",
+      "height": 125,
+      "paddingBottom": 20,
+      "paddingHorizontal": 20,
+      "paddingTop": 50,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 21,
+        "flex": 0,
+        "height": 42,
+        "justifyContent": "center",
+        "marginRight": 20,
+        "opacity": 1,
+        "shadowColor": "#171717",
+        "shadowOffset": Object {
+          "height": 1,
+          "width": 1,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 3,
+        "width": 42,
+      }
+    }
+  >
+    <Icon
+      color="#080808"
+      name="arrow-back-outline"
+      size={24}
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#110F2B",
+        "fontSize": 24,
+        "fontWeight": "bold",
+        "paddingBottom": 4,
+      }
+    }
+  >
+    Shoes
+  </Text>
+  <View
+    accessible={true}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 21,
+        "bottom": 20,
+        "height": 42,
+        "justifyContent": "center",
+        "marginRight": 20,
+        "opacity": 1,
+        "position": "absolute",
+        "right": 0,
+        "shadowColor": "#171717",
+        "shadowOffset": Object {
+          "height": 1,
+          "width": 1,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 3,
+        "width": 42,
+      }
+    }
+  >
+    <Icon
+      color="#080808"
+      name="options-outline"
+      size={24}
+    />
+  </View>
+</View>
+`;

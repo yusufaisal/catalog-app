@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryList Component should render category list properly 1`] = `
+<View>
+  <RCTScrollView
+    automaticallyAdjustContentInsets={false}
+    contentContainerStyle={Object {}}
+    horizontal={true}
+    showsHorizontalScrollIndicator={false}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "paddingHorizontal": 10,
+          }
+        }
+      >
+        <CategoryItem
+          name="T-Shirts"
+        />
+        <CategoryItem
+          name="Women Clothing"
+        />
+        <CategoryItem
+          name="Sport Shoes"
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

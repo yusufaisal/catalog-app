@@ -1,0 +1,460 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductItem Component should render ProductItem properly with new tag 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFF",
+      "borderColor": "#ECECEC",
+      "borderRadius": 10,
+      "borderWidth": 1,
+      "flex": 1,
+      "marginHorizontal": 5,
+      "marginVertical": 5,
+      "paddingHorizontal": 12,
+      "paddingVertical": 12,
+      "shadowColor": "#171717",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 1,
+      },
+      "shadowOpacity": 0.1,
+      "shadowRadius": 3,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 16,
+        "fontWeight": "500",
+        "left": 12,
+        "position": "absolute",
+        "top": 12,
+      }
+    }
+  >
+    New
+  </Text>
+  <View
+    style={
+      Object {
+        "position": "absolute",
+        "right": 12,
+        "top": 12,
+      }
+    }
+  >
+    <Icon
+      color="#FE4F65"
+      name="heart"
+      size={20}
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "https://fe.dev.dxtr.asia/storage/products/Product_07.png",
+        }
+      }
+      style={
+        Object {
+          "height": 150,
+          "resizeMode": "contain",
+          "width": 150,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Icon
+      color="#FECD12"
+      name="star-sharp"
+      size={12}
+    />
+    <Icon
+      color="#FECD12"
+      name="star-sharp"
+      size={12}
+    />
+    <Icon
+      color="#FECD12"
+      name="star-sharp"
+      size={12}
+    />
+    <Icon
+      color="#FECD12"
+      name="star-sharp"
+      size={12}
+    />
+    <Icon
+      color="#91918F"
+      name="star-outline"
+      size={12}
+    />
+  </View>
+  <Text
+    numberOfLines={1}
+    style={
+      Object {
+        "color": "#757479",
+        "fontSize": 14,
+        "fontWeight": "500",
+      }
+    }
+  >
+    Pumma Runing Shoes
+  </Text>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginVertical": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#020202",
+          "fontSize": 18,
+          "fontWeight": "700",
+        }
+      }
+    >
+      $350
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#6D6B9C",
+          "fontWeight": "600",
+        }
+      }
+    >
+      20% Off
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`ProductItem Component should render ProductItem properly with out of stock tag 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFF",
+      "borderColor": "#ECECEC",
+      "borderRadius": 10,
+      "borderWidth": 1,
+      "flex": 1,
+      "marginHorizontal": 5,
+      "marginVertical": 5,
+      "paddingHorizontal": 12,
+      "paddingVertical": 12,
+      "shadowColor": "#171717",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 1,
+      },
+      "shadowOpacity": 0.1,
+      "shadowRadius": 3,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "flex-start",
+        "backgroundColor": "#FE4C4C",
+        "borderRadius": 10,
+        "left": 12,
+        "paddingHorizontal": 10,
+        "paddingVertical": 5,
+        "position": "absolute",
+        "top": 12,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#FFF",
+          "fontSize": 12,
+          "fontWeight": "600",
+        }
+      }
+    >
+      Out of stock
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "position": "absolute",
+        "right": 12,
+        "top": 12,
+      }
+    }
+  >
+    <Icon
+      color="#FE4F65"
+      name="heart"
+      size={20}
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "https://fe.dev.dxtr.asia/storage/products/Product_07.png",
+        }
+      }
+      style={
+        Object {
+          "height": 150,
+          "resizeMode": "contain",
+          "width": 150,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Icon
+      color="#FECD12"
+      name="star-sharp"
+      size={12}
+    />
+    <Icon
+      color="#FECD12"
+      name="star-sharp"
+      size={12}
+    />
+    <Icon
+      color="#FECD12"
+      name="star-sharp"
+      size={12}
+    />
+    <Icon
+      color="#FECD12"
+      name="star-half-sharp"
+      size={12}
+    />
+    <Icon
+      color="#91918F"
+      name="star-outline"
+      size={12}
+    />
+  </View>
+  <Text
+    numberOfLines={1}
+    style={
+      Object {
+        "color": "#757479",
+        "fontSize": 14,
+        "fontWeight": "500",
+      }
+    }
+  >
+    Pumma Runing Shoes
+  </Text>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginVertical": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#020202",
+          "fontSize": 18,
+          "fontWeight": "700",
+        }
+      }
+    >
+      $350
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#6D6B9C",
+          "fontWeight": "600",
+        }
+      }
+    >
+      20% Off
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`ProductItem Component should render ProductItem properly without tag 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFF",
+      "borderColor": "#ECECEC",
+      "borderRadius": 10,
+      "borderWidth": 1,
+      "flex": 1,
+      "marginHorizontal": 5,
+      "marginVertical": 5,
+      "paddingHorizontal": 12,
+      "paddingVertical": 12,
+      "shadowColor": "#171717",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 1,
+      },
+      "shadowOpacity": 0.1,
+      "shadowRadius": 3,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "position": "absolute",
+        "right": 12,
+        "top": 12,
+      }
+    }
+  >
+    <Icon
+      color="#898989"
+      name="heart-outline"
+      size={20}
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "https://fe.dev.dxtr.asia/storage/products/Product_07.png",
+        }
+      }
+      style={
+        Object {
+          "height": 150,
+          "resizeMode": "contain",
+          "width": 150,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Icon
+      color="#FECD12"
+      name="star-sharp"
+      size={12}
+    />
+    <Icon
+      color="#FECD12"
+      name="star-sharp"
+      size={12}
+    />
+    <Icon
+      color="#FECD12"
+      name="star-sharp"
+      size={12}
+    />
+    <Icon
+      color="#FECD12"
+      name="star-sharp"
+      size={12}
+    />
+    <Icon
+      color="#91918F"
+      name="star-outline"
+      size={12}
+    />
+  </View>
+  <Text
+    numberOfLines={1}
+    style={
+      Object {
+        "color": "#757479",
+        "fontSize": 14,
+        "fontWeight": "500",
+      }
+    }
+  >
+    Pumma Runing Shoes
+  </Text>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginVertical": 5,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#020202",
+          "fontSize": 18,
+          "fontWeight": "700",
+        }
+      }
+    >
+      $350
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#6D6B9C",
+          "fontWeight": "600",
+        }
+      }
+    >
+      20% Off
+    </Text>
+  </View>
+</View>
+`;

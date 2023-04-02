@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoyItem Component should render category item properly 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#ECECEC",
+        "borderRadius": 6,
+        "borderWidth": 1,
+        "marginHorizontal": 5,
+        "marginVertical": 5,
+        "paddingHorizontal": 12,
+        "paddingVertical": 12,
+        "shadowColor": "#171717",
+        "shadowOffset": Object {
+          "height": 1,
+          "width": 1,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 3,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "500",
+        }
+      }
+    >
+      T-Shirts
+    </Text>
+  </View>
+</View>
+`;

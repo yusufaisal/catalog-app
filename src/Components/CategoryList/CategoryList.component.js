@@ -11,23 +11,20 @@ const _renderCategoryItems = (props) => {
   ))
 };
 
-const CategoryList = (props) => {
-
-  return (
-    <View>
-      <ScrollView 
-        horizontal 
-        automaticallyAdjustContentInsets={false}
-        showsHorizontalScrollIndicator={false}
-        contentContainerStyle={styles.scrollView}
-      >
-        <View style={styles.container}>
-          {_renderCategoryItems(props)}
-        </View>
-      </ScrollView>
-    </View>
-    
-  )
-};
+const CategoryList = (props) => (
+  <View>
+    <ScrollView 
+      horizontal 
+      automaticallyAdjustContentInsets={false}
+      showsHorizontalScrollIndicator={false}
+      contentContainerStyle={styles.scrollView}
+    >
+      <View style={styles.container}>
+        {_renderCategoryItems(props)}
+      </View>
+    </ScrollView>
+  </View>
+  
+);
 
 export default CategoryList;

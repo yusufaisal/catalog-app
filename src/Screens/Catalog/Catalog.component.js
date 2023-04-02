@@ -1,10 +1,11 @@
 import * as React from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 
-import styles from './Catalogue.component.styles';
 import Header from '../../Components/Header/Header.component';
-import CategorytList from '../../Components/CategoryList/CategoryList.component';
+import CategoryList from '../../Components/CategoryList/CategoryList.component';
 import ProductList from '../../Components/ProductList/ProductList.component';
+
+import styles from './Catalog.component.styles';
 
 import {
   getCategory,
@@ -16,7 +17,7 @@ const _renderHeader = () => (
 );
 
 const _renderCategoryList = (state) => (
-  <CategorytList
+  <CategoryList
     items={state.categories}
   />
 );
@@ -44,11 +45,10 @@ const _getCategory = async (setState) => {
 const useNetworkCall = (setState) => {
   React.useEffect(() => {
     _getCategory(setState);
-
   }, []);
 };
 
-const Catalogue = (props) => {
+const Catalog = () => {
   const [state, setState] = React.useState({
     products: [],
     categories: []
@@ -65,4 +65,4 @@ const Catalogue = (props) => {
   )
 }
 
-export default Catalogue
+export default Catalog

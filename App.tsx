@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-import Catalogue from './src/Screens/Catalogue/Catalogue.component';
+import Catalog from './src/Screens/Catalog/Catalog.component';
 
 export default function App() {
   return (
-    <Catalogue/>
+    <Catalog/>
   );
 }
